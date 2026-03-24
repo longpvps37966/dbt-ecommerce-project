@@ -1,0 +1,25 @@
+# --- dbt related ---
+dbt_project/dbt_ecomm/target/
+dbt_project/dbt_ecomm/dbt_packages/
+dbt_project/dbt_ecomm/dbt_modules/
+dbt_project/dbt_ecomm/logs/
+
+# --- Root level logs ---
+logs/
+*.log
+
+# --- Python related ---
+__pycache__/
+*.pyc
+.venv/
+env/
+.env
+
+# --- Credentials (CRITICAL) ---
+# Nếu bạn lỡ để file profiles.yml trong project, hãy ignore nó ngay!
+profiles.yml
+.dbt/
+
+# --- OS related ---
+.DS_Store
+Thumbs.db
